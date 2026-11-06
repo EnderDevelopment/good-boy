@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Buried Good Boy",
+    "description": "A Minecraft wolf horror add-on with buried treasure and daily feeding.",
+    "uuid": "9c8ddf01-3fd1-4b93-9ea5-48d51d87f94e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "description": "Buried Good Boy behavior and script",
+      "type": "data",
+      "uuid": "21f2bdf1-5d5d-4b4c-9c9d-2a5ab1f60f12",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Buried Good Boy server script",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "e4e7db11-1c85-43d5-b7c0-3a182e277d44",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    }
+  ]
+}
